@@ -1,28 +1,49 @@
 body {
     background-color: #1ad1ff;
-    padding:0;
-    margin:0;
 }
 nav {
     background-color: white;
-    position:fixed;
+    position: fixed;
+    text-align: center;
+    margin-top: 0;
     top: 0;
+    margin-left: -10px;
     width: 100%;
-
+    color: black;
 }
 
-button{
+.button {
     float: right;
     margin-top: 15px;
     margin-right: 15px;
-    background-color: #1ad1ff;
+    background-color: #1a3cff;
+    border-style: solid;
+    color: white;
+    text-decoration: none;
 
 }
-#form-style {
-    width: 30%;
-    margin: auto;
-    padding: 10%;
+fieldset {
+    margin-top: 15%;
     background-color: white;
-    
+    text-align: center;
+    padding-bottom: 1em;
+    border: .5px, solid;
+    margin-left: 35%;
+    margin-right: 65%;
+    width: 275px;
+
+}
+
+.images{
+    align-items: center;
+    width:70px;
+    height:70px;
+    padding-bottom: 50px;
+    padding-top: 150px;
+}
+input{
+    margin-top: 1em;
+    margin-bottom: 1em;
+
 
 }
